@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    
+    <title>{{ page.title }}</title>
+  </head>
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container">
+      <section id="main_content">
+        <h2 style="text-align:center">{{page.title}}</h2>
+         {{ content }}
+      </section>
+    </div>
+    
+  </body>
+</html>

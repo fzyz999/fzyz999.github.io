@@ -1,0 +1,7 @@
+pygements: true
+safe: true
+highlight: true
+markdown: kramdown
+kramdown:
+  input: GFM
+
